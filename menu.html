@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h1>OUR MENU</h1>
+  <a href="frame.php" target="_blank"><h2>-> Check Today's Prices</h2></a>
+  <div class="a" text-align ="right"><a href="loggedmenu.php" text-align ="right"><h2>--> Move To Cart <--</h2></a></div>
+  
+  <meta name="google-signin-client_id" content="894046296405-2stf1timn6mu271rae78mc2ublsoj5d0.apps.googleusercontent.com">
+  <title>Fresh Produce</title>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--google sign-in-->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!--Custom style sheet-->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style type="text/css" media="screen">
+.content{
+    min-height: 600px;
+}
+.bac{
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8/ODMtNygtLisBCgoKDg0ODw8PFSsZFRkrKzcrLSsrKzctKy0rKysrKystKy0tLS0tLSstLSstKy0rKysrKzcrNysrLSsrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUG/8QAIhABAQEAAwEAAgIDAQAAAAAAAAECAxESEwRRIWEiQYEx/8QAGwEAAwEBAQEBAAAAAAAAAAAAAAECAwQFBwb/xAAcEQEBAAMBAQEBAAAAAAAAAAAAAQIREiEDEzH/2gAMAwEAAhEDEQA/APs/ytfylKPPU+3zm31+qxnkdONKzTlxVJVSoyxX9GmkJo+araLiqJcnkUit0FinRbBotpWEsVpKmrlSsLVKSpq4nqEqlJU1pE7CnoWJXCdN0boOiVsOh6YejLbSCwghGFEEaU8qcNlSapKMoZytjiVIztkDKuMnxxLZw0mLHLMucqSCW1bLew1UdqaJYVVihrLr/Gn+P/UbHRwT/EsZ6f0vjxOWklbdLK5rXoSeK5p5pGU0p7TYtKrlz5q+FRnlF8q5hMRbMbRzZVui09JTTE9EqmiVFaROkqlTqa0hKSnpamtISlOCVlAwEYN2W6L2D0ftuwkUxxgXULD5zarjidGOFcxZZfSRz44l8cLpxxLZx00mDny+qGOFbPH0eC0k0xuVodMIBJaBw6B7JYW5U6DoaPaflbj/APC9Kcc/gQsr4+a1WC0O3E9fR5RlJ2Mp7LS2HVxRycTt4Y0xYfR0ccXifHFem8cWV9LSaPU9CiE0Sm0SorWFpKakqa0haWmpalcJWGo8nJ/qJq5NjrciWtWg0RtrJoZFM4DEWxFSJyyNjjXxxhiL4jXGObPIcYdGMFxFsxrI5sshkFmWzBuhYAOh6FgA6DoWADoOjMQ2Xo+Z/AGhwrXyrAzge2LQBgDo4ndwxw8L0OCNsHJ9XXxw1DMHTocV/pNJVTSdTV4kqdPSVFawtJT0tTVwlA1JUriXLrqOfpXf80vlFbY+QnTQ/kfJaVts1bFS8mhxF9dWNL404s6WxtpKwyxd2NL5rhxyLY5Gsyc2WDqZPO1JVsrBZmMmZmMCAsAHTCwAdGjMCfJ2MtrAeHBp7XUS6GRWYHwNF0fheh+O4MZdfDrprg5/r69DLUnFyKV0OKzVS0nVtRKxNXinSVSwliK0hKSqWFqauJ1PathLE1pKj5byr5byWl9JdD0p5HyNF0nMm8n8j0ei6T8GmT9GmT0m5Enaudh5HycRbFcci2eRzTJouVnljK7c7NK5M6VztcrK4LsSbNKraNGYBMmZmBCFFgHi64m+Tt+Q/Jhw7P1cPyb5u75B8hwP1cc4z5y6PmPzHJX6J4XxoswaZXIzysqk01zKXoYpBbxQt4f7WYtQdVzXgpLwV2AXMVM64rwUPhf07aBcxX6VxfG/oPjf07ug6LiH+lcXyv6b5X9Ozpuhyf6VyfO/pvm6um6HI7rm8N4dHQdDkdI+RkV6boaHRJBkHpugWxmRmQimVJtaGlCQ0hoppTdkGGk7AJkLNGMk/I+Wu4S8sLxXtPcluQ+o+y8Gq3kPI+wux4frdD0X2Hsj1T9Mn7b2NjVUDtP2HsbPSvYdp+w9DY5U7Dsnpuy2ej9t2TtuxsaN23ZWB6HsO2YBmYAYsDdkGEO27ANIaE9N7PZaqso9o+29nsuVux7R9j7Gy5W7NKhNHlPabFYJZTKQ8jX5P9hOd53umm64+3qfjI9GcxpzPOmzzZ9pvyjv+zfVxzR5VdIvzjp+g+0IaHtPMV9t6JBkMtH7bsJDSGloI9D0C2DdG6Yy2AsHYAsW6LdjY0cLUryFvIXSpitdBdIXkL7LpUwdHsPbn9h7LpXDo9t7c30D6F0fDp9t7c30D6DocOr23tzTZpodDh0TRppCaUzVSouK+apmoZqmaqVnlF81SI5WjSMcnyshpBkNI4XsWtDRpDSGi02VITMPFxnVMnkTypmrjKnmTzJcqRUZ2hIaQZBUjYdB2awtgAWlu21EtdptXIa8hLyJaqetIuTWYLXkJeRC6Lam5NJgteQt5Eew7Ttcwi15C/RLsC2rmK+w9pMWz5insLyJgNnzFfZpUofIKxWU+anFMrjKq5UyllXK4yyUyrlLKuVxjktlaI5WjSMMnzvkZlaYHw5eXpXNKZNMqeB8HpPRJBkPMG8q0m5FkNBmRmT0i0c1TNJIMiomqymicNKqVnYoHQSmNJblPXGvG8lo5lpx74kNcVelclvHE3Bpj9dPK1xkuXqa4U9cCLg1n2jzbkPLvv46euBPFaT6xx9B5dV4S3iTyruObpunR8g+Zcq7c/TeXR8w8DkdodGivzb5jQ6hYpkvmmhxNVyplLKuWkZZK5VylhbC4wyVytEcrRpGGTzPmPhmZ6dHVHwPhmGi6o+G8Mx6LY+R8Mw0Nj5HyzHotj5byzAtmkFmMhhozGkem6FjIPIXLMQ2W4LeNmGj3S3ihbxMydRUypbwlvCDFqL7oXhD4sxcw+6HxD4ixaV1Q+QfJmLUPqt8jTFZj0OqpmLYZlRnktmKRmaRhX//2Q==);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+ </style>
+</head>
+
+<body class="bac">
+
+<div class="w3-row-padding w3-padding-16 w3-center" id="food">
+   <div class="w3-quarter">
+      <img src="onion.jpg" alt="Onion" style="width:100%">
+    	<a href="http://market.todaypricerates.com/vegetables-daily-price" target="_blank"><h3>ONIONS</h3></a>
+     
+    </div>
+    <div class="w3-quarter">
+      <img src="tomatoes.jpg" alt="Tomatoes" style="width:100%">
+      <a href="cart.html"><h3>TOMATOES</h3></a>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="cap.jpg" alt="capcium" style="width:90%">
+      <a href="cart.html"><h3>CAPCIUM</h3></a>
+    
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="carrot.jpeg" alt="carrots" style="width:100%">
+      <a href="cart.html"><h3>CARROTS</h3></a>
+     
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="cabbage.jpg" alt="cabbage" style="width:100%">
+      <a href="cart.html"><h3>CABBAGE</h3></a>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="greenpeas.jpg" alt="peas" style="width:100%">
+      <a href="cart.html"><h3>PEAS</h3></a>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="bringal.jpg" alt="bringal" style="width:90%">
+      <a href="cart.html"><h3>BRINGAL</h3></a>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="ldf.jpg" alt="LadyFinger" style="width:100%">
+      <a href="cart.html"><h3>LADY FINGER</h3></a>
+      
+    </div>
+  </div>
+
+</body>
+
+</html>
