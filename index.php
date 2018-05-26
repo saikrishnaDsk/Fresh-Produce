@@ -102,7 +102,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="menu.html"><span class="glyphicon glyphicon-off"></span>Menu</a>
+              <a href="menu.html"><span class=" glyphicon glyphicon-menu-hamburger"></span>Menu</a>
             </li>
           <li>
               <a href="#about"><span class="glyphicon glyphicon-bookmark"></span>About-us</a>
@@ -111,10 +111,10 @@
               <a href="#"><span class="glyphicon glyphicon-user"></span>Login</a>
             </li>
             <li>
-              <a href="frame.php"><span class="glyphicon glyphicon-user"></span>Today's Prices</a>
+              <a href="frame.php"><span class="glyphicon glyphicon-usd"></span>Today's Prices</a>
             </li>
             <li>
-              <a href="mil.html"><span class="glyphicon glyphicon-off"></span>RoadMap</a>
+              <a href="mil.html"><span class="glyphicon glyphicon-road"></span>RoadMap</a>
             </li>
           </ul>
         </div>

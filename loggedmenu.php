@@ -33,19 +33,20 @@
 
 <style>
 h3:hover
-  {color:green;
+  {
+    color:green;
   }
     .form{
-       width: 500px;
+    width: 500px;
     height: 500px;
     background-color: snow;
     margin: 0px auto 0px auto;
-    padding: 0px 0px 0px 0px
+    padding: 0px 0px 0px 0px;
     }
-     .header{
+    .header{
         background-color: orangered;
         column-rule-style: hidden;
-         text-align: center;
+        text-align: center;
     }
     .bg{
         background-image: url(https://hdwallsource.com/img/2014/7/solid-color-background-21964-22517-hd-wallpapers.jpg);
@@ -64,6 +65,7 @@ h3:hover
 <body class="bg">
 <center><h1>Our Menu</h1></center>
 <div>
+  <button type="button" class="btn btn-primary btn-md" onclick="location.href = 'index.php'">Home</button>
 <button type="button" class="btn btn-primary btn-md" onclick="location.href = 'ordering.html'">Confirm Order</button>
 <br><br>
 <script type="text/javascript" charset="utf-8" async defer>
@@ -75,7 +77,7 @@ h3:hover
 </script>
 </div>
 <?php
-  if(!empty($_GET["action"])) {
+if(!empty($_GET["action"])){
 switch($_GET["action"]) {
   case "add":
     if(!empty($_POST["quantity"])) {
