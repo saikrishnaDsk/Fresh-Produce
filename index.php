@@ -95,12 +95,15 @@
           		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> 	<span class="icon-bar"></span> <span class="icon-bar"></span> 
           </button>
           <a class="navbar-branch" href="">
-            <img src="logo.png" class="img-rounded" id="logo" alt="logo" height="60px" width="170px">
+            <img src="Capture33.PNG" class="img-rounded" id="logo" alt="logo" height="60px" width="170px">
          <!--   <h3 style="display:inline-block; text-decoration: none;" align="center" >traff-O-lic</h1> -->
           </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu.html"><span class="glyphicon glyphicon-off"></span>Menu</a>
+            </li>
           <li>
               <a href="#about"><span class="glyphicon glyphicon-bookmark"></span>About-us</a>
             </li>
@@ -108,13 +111,10 @@
               <a href="#"><span class="glyphicon glyphicon-user"></span>Login</a>
             </li>
             <li>
-              <a href="#"><span class="glyphicon glyphicon-user"></span>Community</a>
-            </li>
-            <li>
               <a href="frame.php"><span class="glyphicon glyphicon-user"></span>Today's Prices</a>
             </li>
             <li>
-              <a href="#"><span class="glyphicon glyphicon-off"></span>MileStone</a>
+              <a href="mil.html"><span class="glyphicon glyphicon-off"></span>RoadMap</a>
             </li>
           </ul>
         </div>
@@ -133,7 +133,7 @@
             <h1>FRESH PRODUCE</h1>
           
             <br/>
-            <a href="menu.html" class="button"><h2>MENU</h2></a>
+           
           </div>
         
       </div>
@@ -184,7 +184,7 @@
     </div>
     <div class="w3-quarter">
       <img src="ldf.jpg" alt="LadyFinger" style="width:100%">
-      <h3></h3>
+      <h3>LADY FINGER</h3>
       
     </div>
   </div>
