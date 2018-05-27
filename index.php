@@ -108,7 +108,7 @@
               <a href="#about"><span class="glyphicon glyphicon-bookmark"></span>About-us</a>
             </li>
             <li>
-              <a href="#"><span class="glyphicon glyphicon-user"></span>Login</a>
+              <a href="login.php"><span class="glyphicon glyphicon-user"></span>Login</a>
             </li>
             <li>
               <a href="frame.php"><span class="glyphicon glyphicon-usd"></span>Today's Prices</a>
