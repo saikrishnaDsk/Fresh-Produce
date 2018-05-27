@@ -2,31 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Registration system PHP and MySQL</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-<style>
-    .bodybg{
-        background-image: url(login.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-    }
-    .header{
-        background-color: orangered;
-        column-rule-style: hidden;
-    }
-    </style>
-  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="bodybg">
-  <br>
-  <div class="header" style="background-color: orangered;">
+<body>
+  <div class="header">
   	<h2>Login</h2>
   </div>
 	 

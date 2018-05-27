@@ -16,20 +16,8 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <style>
-    .bodybg{
-        background-image: url(thank.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-    }
-    .header{
-        background-color: orangered;
-        column-rule-style: hidden;
-    }
-    </style>
 </head>
-<body class="bodybg">
+<body>
 
 <div class="header">
 	<h2>Home Page</h2>
@@ -50,8 +38,7 @@
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-      <br><a href="form.php"><h3>Just 2 Clicks away ->> !</h3></a>
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+    	<p> <a href="index1.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
 </div>
 		
