@@ -30,61 +30,52 @@
   margin: auto;
 	position: relative}	
  .btn:hover {
-    border-radius: 3px;
+    border-radius: 3;
     background-color: #fee6d1;
     color: #3e4152;
 }
 
 .content{
-    min-height: 600px;
+    min-height: 600;
 }
 
 .banner_image {
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 50;
+    margin-bottom: 20;
     font-family: "Karma", sans-serif;
     color: #f8f8f8;
    background-image: url(https://images.pexels.com/photos/890507/pexels-photo-890507.jpeg?cs=srgb&dl=cherry-food-fresh-890507.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    text-shadow: 2px 4px 5px red;
+    text-shadow: 2 4 5 red;
 }
 
 .inner-banner-image{
-    padding-top: 12%;
-    width:30%;
+    padding-top: 12;
+    width:30;
     margin:auto;
 }
 
 .banner_content {
    
-    padding-top: 20%;
-    padding-bottom: 10%;
+    padding-top: 20;
+    padding-bottom: 10;
     overflow:hidden;
-    margin-bottom: 12%;
+    margin-bottom: 12;
     background-color: rgba(0, 0, 0, 0);
-    max-width: 660px;
+    max-width: 660;
     
 }
 .eatnow
 {	text-decoration:none;}
 #about
 { border-top-style: solid;
-    border-width: 3px;}
+    border-width: 3;}
 #food
 {border-top-style: solid;
-    border-width: 3px;}
-
-
+    border-width: 3;}
 </style>
-  <script  type="text/javascript" charset="utf-8">
-    function navigate()
-    {
-      location.href = '';
-    }
-   
-  </script>
 </head>
 
 <body style="background-blend-mode: color-dodge; background-color: #dfdfdf">
@@ -95,7 +86,7 @@
           		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> 	<span class="icon-bar"></span> <span class="icon-bar"></span> 
           </button>
           <a class="navbar-branch" href="">
-            <img src="Capture33.PNG" class="img-rounded" id="logo" alt="logo" height="60px" width="170px">
+            <img src="Capture33.PNG" class="img-rounded" id="logo" alt="logo" height="60" width="170">
          <!--   <h3 style="display:inline-block; text-decoration: none;" align="center" >traff-O-lic</h1> -->
           </a>
         </div>
@@ -103,9 +94,6 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
               <a href="menu.html"><span class=" glyphicon glyphicon-menu-hamburger"></span>Menu</a>
-            </li>
-            <li>
-              <a href="login.php"><span class="glyphicon glyphicon-user"></span>Login</a>
             </li>
             <li>
               <a href="frame.php"><span class="glyphicon glyphicon-usd"></span>Today's Prices</a>
@@ -141,7 +129,7 @@
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
    <div class="w3-quarter">
       <img src="onion.jpg" alt="Onion" width=300 height=200">
-    	 <h3>ONIONS</h3>
+       <h3>ONIONS</h3>
      
     </div>
     <div class="w3-quarter">

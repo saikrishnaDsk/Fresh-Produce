@@ -51,13 +51,9 @@ if (isset($_POST['reg_user'])) {
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
-  	header('location: index1.php');
+  	header('location: index2.php');
   }
 }
-
-// ... 
-
-// LOGIN USER
 if (isset($_POST['login_user'])) {
   $username = mysqli_real_escape_string($db, $_POST['username']);
   $password = mysqli_real_escape_string($db, $_POST['password']);
@@ -76,7 +72,7 @@ if (isset($_POST['login_user'])) {
     if (mysqli_num_rows($results) == 1) {
       $_SESSION['username'] = $username;
       $_SESSION['success'] = "You are now logged in";
-      header('location: index.php');
+      header('location: index2.php');
     }else {
       array_push($errors, "Wrong username/password combination");
     }
