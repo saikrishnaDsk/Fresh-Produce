@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
   
   <meta name="google-signin-client_id" content="894046296405-2stf1timn6mu271rae78mc2ublsoj5d0.apps.googleusercontent.com">
   <title>Fresh Produce</title>
@@ -13,7 +14,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<!--google sign-in-->
+<!--google commit status check sign-in-->
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <!--Custom style sheet-->
   <link rel="stylesheet" type="text/css" href="styles.css">
